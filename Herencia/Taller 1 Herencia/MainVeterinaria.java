@@ -1,12 +1,13 @@
 public class MainVeterinaria {
     public static void main(String[] args) {
         
-        Animal firulais = new Perro("Firulais", 4);
-        Animal michi = new Gato("Michi", 2);
-        Animal pajaro = new Pajaro("Pajaro", 1);
+        Perro firulais = new Perro("Firulais", 4);
+        Gato michi = new Gato("Michi", 2);
+        Pajaro pajaro = new Pajaro("Pajaro", 1);
 
         firulais.comer();
         firulais.hacerSonido();
+        firulais.dormir();
         firulais.perseguirCola();
 
         System.out.println("---");

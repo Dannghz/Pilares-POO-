@@ -18,4 +18,9 @@ public class Empleado {
         System.out.println("Documento: " + documento);
         System.out.println("Salario a pagar: $" + calcularSalario());
     }
+
+    public double calcularPago() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularPago'");
+    }
 }
