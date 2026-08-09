@@ -1,11 +1,10 @@
-package Herencia.Taller4Herencia;
+package Polimorfismo.Taller3Polimorfismo;
 
 public class Rectangulo extends Figura {
     private double ancho;
     private double alto;
 
-    public Rectangulo(String color, double ancho, double alto) {
-        super(color);
+    public Rectangulo( double ancho, double alto) {
         this.ancho = ancho;
         this.alto = alto;
     }

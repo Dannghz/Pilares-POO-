@@ -1,0 +1,17 @@
+package Polimorfismo.Taller4Polimorfismo;
+
+public class EmpleadoFreelance extends Empleado {
+    private int proyectos;
+    private double pagoPorProyecto;
+
+    public EmpleadoFreelance(String nombre, int proyectos, double pago) {
+        super(nombre);
+        this.proyectos = proyectos;
+        this.pagoPorProyecto = pago;
+    }
+
+    @Override
+    public double calcularSalario() {
+        return proyectos * pagoPorProyecto;
+    }
+}
